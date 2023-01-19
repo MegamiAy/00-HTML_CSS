@@ -1,14 +1,3 @@
-M01 - Primeiros passos HTML+CSS
-M02- Deixando as coisas mais bonitas
-M03- colocando um prototipo no ar
-M04- aprofundando os conhecimentos
-M05- novas tecnologias
-
-M01
-
-github.com/gustavoguanabara
-gustavoguanabara.github.io
-
 Como a internet chega na minha casa?
 
 Internet nasceu na Guerra fria 1949

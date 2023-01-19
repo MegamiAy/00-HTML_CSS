@@ -1,5 +1,4 @@
 <!-- --> - comentário em HTML
-// - comentário em PHP
 
 BÁSICOS
 <h1></h1> - titulo de nível 1

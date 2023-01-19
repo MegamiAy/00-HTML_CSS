@@ -1,7 +1,5 @@
 Teoria das cores
 
-https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf
-
 * Teoria das cores
 
 Cor > Associada a > Usar em > Evitar/Atenção
