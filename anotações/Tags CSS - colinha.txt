@@ -1,0 +1,183 @@
+ATALHOS
+
+ctrl + clique com botão esquerdo - abrir ou criar arquivo inexistente 
+
+----------------------------------------------------
+
+Variáveis em CSS
+para cores por exemplo
+
+setar variáveis
+	
+	: root {
+		--nomevar: valor;
+		--nomevar2: #000000;
+	}
+
+usar
+	var (--nomevar)
+
+---------------------------------------------------
+
+#id - HTML = id CSS = #
+.class - HTML = class CSS = .
+pseudoclasse - :
+	:hover - passar o mouse em cima
+	:active - clique
+	:visited - site já aberto
+	:	
+
+pseudoelemento - ::
+	::after - depois de
+	::before - antes de
+
+quando usar cada um?
+	- id="" só pode ser utilizado uma vez/só em um elemento
+	- class="" pode ser utilizado mais de uma vez/em mais de um elemento
+
+---------------------------------------------------
+
+MEDIDAS
+
+absolutas
+	cm, mm, in, px, pt, pc
+
+relativas
+	em, ex, rem, vw, vh, %
+
+16px geralmente é 1em
+
+---------------------------------------------------
+
+@import url(); - importar, fontes por exemplo
+@font-face {
+	font-family: ;
+    	src: url();
+}
+
+* {} - configuração global do css
+
+---------------------------------------------------
+
+TEXT - TEXTO
+
+shorthand font - mãozinha
+	ordem: style, weight, size, family	
+		font: italic bolder 3em Arial, sans-serif;
+
+font-family: ; - fonte a ser utilizada
+font-size: ; - tamanho da fonte
+font-style: ; - estilo
+font-weight: ; - peso da fonte
+	- lighter(100), normal(400), bold(600), bolder(800)
+color: ; - cor da fonte
+text-indent: ; - inicio paragráfo
+line-height: ; - espaçamento de linhas
+
+text-shadow: 0, 0, 0, 0 ; - define uma sombra no texto
+	1º 0 = qt lado
+	2º 0 = qt baixo
+	3º 0 = qt expalhar
+	4º 0 = qt transparencia e cor
+
+text-align: ; - alinhamento de texto
+	º justify - justificado
+	º center - centralizar 
+	º left - a esquerda
+	º right - a direita
+
+text-decoration: ; - decoração
+	º none - nenhuma
+	º underline - subilinhado
+	º nome-cor - cor.
+
+--------------------------------------------------
+
+LIST - LISTA
+
+list-style-type: ; - tipo das "bolinhas"
+	ex: list-style-type: list-style-type: '\3714\00A0\00A0'; 
+list-style-position: ; - posição
+columns: ; - número de colunas
+
+--------------------------------------------------
+
+BACKGROUND - FUNDO
+
+background-color: ; - cor de fundo
+background-image: linear-gradient (to 'direção', cor1, cor2...);
+
+---------------------------------------------------
+
+DIVS - COMPONENTES
+
+width: ; - mexe na largura
+height: ; - mexe no comprimento
+padding: ; - define uma a distância entre o conteúdo de um elemento e suas bordas
+	padding: 0 0 0 0;
+		1º 0 - top
+		2º 0 - right
+		3º 0 - bottom
+		4º 0 - left
+
+margin: ; - define a área de margem nos quatro lados do elemento
+	margin: 0 0 0 0;
+		1º 0 - top
+		2º 0 - right
+		3º 0 - bottom
+		4º 0 - left
+	margin: auto; - centraliza caixas verticalmente 
+
+content: 'msg'; - add msg
+position: ; - usado para fazer ajustes
+	relative;
+	absolute;
+		- top
+		- left
+		- width
+		- heights
+
+display: ; - arrumar
+	º inline-block - alinha um ao lado do outro, na msm linha
+
+box-shadow: 0, 0, 0, 0; - define uma sombra
+	1º 0 = qt lado
+	2º 0 = qt baixo
+	3º 0 = qt expalhar
+	4º 0 = qt transparencia e cor
+
+BOX - CAIXAS
+
+box-level - pula linha
+	ex: div
+inline-level - não pula linha
+	ex: span
+
+BODY >
+	> HEADER
+		> nav
+	> MAIN
+		> section
+			> article
+			h2, p
+	> FOOTER
+
+----------------------------------------------------
+
+BORDER - BORDAS
+
+border-radius: ; - arredondar pontas
+outline: ; - contorno
+border-width: ; - largura linha
+border-style: ; - tipo
+border-color: ; - cor
+border: 1px solid black; - borda
+	1px - tamanho linha - width
+	solid - tipo
+	black - cor
+
+----------------------------------------------------
+
+TRANSITION - TRANSIÇÃO
+
+transition-duration: ; - duração da transção

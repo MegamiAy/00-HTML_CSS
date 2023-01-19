@@ -1,0 +1,174 @@
+M01 - Primeiros passos HTML+CSS
+M02- Deixando as coisas mais bonitas
+M03- colocando um prototipo no ar
+M04- aprofundando os conhecimentos
+M05- novas tecnologias
+
+M01
+
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+Como a internet chega na minha casa?
+
+Internet nasceu na Guerra fria 1949
+
+DARPA - estudos de tecnologia pra guerra
+
+ARPANET - começou apenas com a comunicação em 4 computadores, e foi evoluindo
+
+Protocolo - linguagem única, que todos conseguem falar
+
+Arpanet foi dividida 
+MILNET - militar
+NSFNET - estudantes
+comercios -  ... comercios
+
+Internetworking -> foi cortado e ficou Internet
+
+as conexões entre continentes da internet são cabos submarinos, de baixo d'água
+
+Internet - junção de várias redes - interconexão
+
+Tim Berners-Lee e sua equipe, criaram o HTML
+
+Word Wide Web - sub rede da internet
+
+HTTP - protocolp especializado em hipertexto
+
+como a internet funciona?
+
+bit e byte
+
+bit - 0 ou 1
+byte - sequência de no minimo 8 bit
+
+UTF-8 - 
+
+Representação de Dados
+
+8 bit -> 1 byte
+1024 bytes -> 1 KB
+1024 KB -> 1 MB
+1024 MB -> 1 GB
+1024 GB -> 1 TB
+1024 TB -> 1 PB
+
+MB megabytes - armazenamento
+Mb megabits - transmissão
+
+Como nos conectamos?
+
+Cliente -> Modem -> Internet -> Servidor
+
+IP local
+IP público
+
+DNS - sistema de nome de dominio
+
+Hospedagem - Servidor
+	- Espaço para armazenar arquivos
+
+Domínio - Nome que identifica seu site - nome úmico
+	- Pago anualmente
+	- Vários TLDs
+
+
+https://www.github.com/gustavoguanabara -> URL
+https:// -> protocolo
+www. -> sub-domínio
+github.com -> domínio
+.com -> TLD
+/gustavoguanabara -> caminho
+
+https://gustavoguanabara.github.io - URL
+https:// -> protocolo
+gustavoguanabara -> sub-domínio
+github.io -> domínio
+.io -> G'TLD
+
+como funciona/diferença de HTML, CSS e JavaScript
+
+HTML e CSS não são linguagens de programação
+
+HTML - 	Hypertext - clicar em uma área e ir para outra
+	Markup - marcação
+	Language - linguagem
+
+HTML -> linguagem de marção hipertexto -> Conteúdo
+					> textos
+					> imagens
+					> vídeos
+					> tabelas
+	
+CSS - 	Cascading - cascata		
+	Style - estilo			
+	Sheets - folhas			
+
+CSS -> Folhas de estilo em cascata     -> Design
+					> cores
+					> sombras
+					> tamanhos
+					> posicionamentos
+
+JavaScript -> interatividade 	       -> Interações
+					> menus
+					> animações
+					> popups
+					> validações
+
+Conteúdo em HTML
+
+<h1>exemplo de título</h1>
+<h1> - abertura de tag
+</h1> - fechamento de tag
+exemplo de título - contéudo
+
+<p>exemplo de paragráfo</p>
+
+<img src="foto.png" alt="exemplo defoto">
+<img - abertura de tag
+src="" - parâmetro
+alt="" - parâmetro
+> - fechamento
+
+Estilo CSS
+
+h1 {
+	font-family: Arial;
+	font-size: 10pt;
+	color: blue;
+}
+
+h1 - seletor'
+font-family: Arial; - declaração
+; - finalizar a linha
+color - propriedade
+blue - valor
+
+estrutura básica de documento HTML
+
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="UTF-8"> - compatibilidade com acentos e caracteres
+		<meta name ="width=device-width, initial-scale=1.0">
+		<title></title>
+	</head>
+	<body>
+		<h1> Olá, Mundo!</h1>
+	</body>
+</html>
+
+body - corpo
+head - configurações
+
+Front-end, Back-end e Full stack
+
+Front-end - lado do cliente/client-side - - design
+Back-end - lado do server/server-side -  - php, js, c#, phyton, ruby, java...'
+Full Stack - Sabe os dois lados
+
+Ferramentas
+
+visual studio code

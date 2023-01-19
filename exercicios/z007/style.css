@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MENU */
+
+header {
+    height: 80px;
+    background-color: black;
+    color: white;
+    box-shadow: 1px 0px 7px #000000c0;
+} 
+
+nav {
+    padding: 3px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 4px;
+    padding: 4px 5px;
+}
+
+nav > a:hover {
+    background-color: rgb(29, 28, 28);
+    padding: 4px 5px;
+    border-radius: 4px;
+}
+
+/* CORPO */
+
+section {
+    border: 1px solid black;
+}
+
+/* PÉ */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

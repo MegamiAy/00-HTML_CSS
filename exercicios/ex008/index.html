@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="..." type="image/x-icon"> -->
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/m.png" type="image/png">
+        <img src="imgs/G.png">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <audio src="audio/musc.mp3" controls>Aff...</audio>
+    <h1>Vídeos</h1>
+    <h2>Hospedagem prórpia</h2>
+    <video src="video/1.mp4" controls></video>
+    <h2>Hospedagem externa</h2>
+    <p>vá no yt ou vimeo por exemplo, abra um video, clique em compartilhar e escolha "incorporar"</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mrJvp64_tL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

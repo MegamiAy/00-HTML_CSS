@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
+
+body {
+    font-weight: normal;
+    font-size: 1em;
+    font-family: 'DM Mono', monospace;
+    /* font: normal 1em 'DM Mono' monospace; */
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}

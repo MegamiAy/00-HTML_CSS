@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
+
+body {
+    background-color: aliceblue;
+    font-family: 'DM Mono', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+}
+
+#princ {
+    text-align: center;
+    background-color: #bccad6;
+}
+
+.basic {
+    color: #cfb56e;
+}
+
+.hard {
+    color: #a52a2a;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}

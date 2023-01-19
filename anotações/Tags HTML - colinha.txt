@@ -1,0 +1,76 @@
+<!-- --> - comentário em HTML
+// - comentário em PHP
+
+BÁSICOS
+<h1></h1> - titulo de nível 1
+<h2></h2> - titulo de nível 2... até <h6></h6>
+<p></p> - parágrafo
+<div></div> - espaço, que vai conter outros csódigos
+
+<hr> - linha horizontal
+<br> - quebra de linha
+
+MARCAÇÕES
+<strong></strong> - negrito/destaque
+<em></em> - itálico/enfâse
+<mark></mark> - marca texto
+<small></small> - texto pequeno
+<del></del> - texto deletado
+<ins></ins> - texto sublinhado/inserido
+<sup></sup> - usado para deixar a letra/número menor e mais para cima como em x^2
+<sub></sub> - usado para deixar a letra/número menor e mais para baixo como em H2O
+<q></q> - citação simples
+<blockquote></blockquote> - citação completas
+<abbr></abbr> - abreviação
+
+LISTAS
+<ol></ol> - lista ordenada = tipos: 1=númerada, A=Alfabetica, I= númeração romana
+<ul></ul> - lista não ordenada = tipos: disc=bolinha preta, circle=bolinha sem preenchimento, square=quadradinho
+<dl></dl> - lista de definição = <dt></dt>: termo <dd></dd>: definição
+<li></li> - item da lista
+
+FORMATAÇÃO
+<pre></pre> - formatação de texto, como está escrito
+<code></code> - vizualizar as letras com o mesmo espaçamento
+
+INSERIR
+simbolos &; -
+	&reg;
+        &copy;
+        &lt; - < para aparecer na tela
+	&gt; - > para aparecer na tela
+        mysticsymbols
+emojis &#; -
+	&#1596;
+        emoji pedia
+
+<picture>
+        <source> - redimencionamento de img de acordo com o tamanho do aparelho
+<img src=""  alt=""> - adicionar imagens, src é onde colocar o caminho como src=".../img.jpg" use ctrl + space pra aparecer os caminhos
+<audio src="caminho" controls></audio>
+<video src="caminho" controls></video>
+	<iframe>
+
+
+LINKS
+link:favicon - favicon, colocado no head
+<a href=""></a> - links para sites externos
+	target="_blank" - abrir em nova aba
+	target="_self" - abrir na própria aba
+	rel="external" -link externo
+	rel="next" - próx link interno
+	rel="prev" - link anterior interno
+	rel="nofolow" - a página não segue
+	download="example.pdf" type="application/pdf"- para fazer download
+		tipos:
+		application/zip
+		text/html
+		text/css
+		text/ javascript
+		video/mp4
+		video/JPEG
+		audio/acc
+		font/ttf
+		image/png
+		image/jpeg
+

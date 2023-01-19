@@ -1,0 +1,134 @@
+Teoria das cores
+
+https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf
+
+* Teoria das cores
+
+Cor > Associada a > Usar em > Evitar/Atenção
+
+Vermelho > amor, emoção, energia, raiva, perigo > comida, moda, entreterimento, serviços de emergência e saúde > luxo, natureza, serviços em geral
+
+Amarelo > felicidade, alegria, otimismo, covardia > dar luz, dar calma e felicidade, chamar atenção > pode indicar que algo é barato ou spam
+
+Laranja > divertimento, ambição, calo, cautela > comércio eletrônico, entreterimento, call-to-action > pode se tornar cansativo se muito explorado
+
+Verde > sáude, natureza, dinheiro, sorte, inveja > relaxamento, turismo, financeiros, meio ambiente > luxo, tecnologia, meninas adolecentes
+
+Azul > competência, sabedoria, calma, frio > tecnologia, medicina, ciências, governo > comida (reduz o apetite)
+
+Roxo > criatividade, poder, sabedoria, mistério > produtos de beleza, astrologia, ioga, espiritualidade, adolecente > não prende muito a atenção, indiferente
+
+Marrom > terra, robustez, estabilidade, amizade > alimentação, imobiliária, animais, finanças > cor considerada conservadora
+
+Preto > elegância, autoridade, mistério, morte > luxo, moda, marketing, cosméticos > desconforto e medo
+
+Branco > pureza, limpeza, felicidade, segurança > medicina, saúde, tecnologia, luxo (c/preto, ouro, cinza) > não chama antenção, deve ser combinado
+
+Cinza > formalidade, sofisticação, friez, indiferença > bens de luxo, efeito calmante > dá a sensação de frieza
+
+Rosa > amor, romance, sinceridade, cuidados > produtos femininos e cosméticos > pode tornar muito sentimental e doce
+
+Circulo cromático
+
+Cores primárias
+	amarelo
+	vermelho
+	azul
+
+Cores secundárias
+	Laranja
+	Violeta - roxo
+	Verde
+
+Cores terceárias
+	misturas de cores
+	entre uma cor primária e secundária
+	amarelo-esverdeado
+	amarelo-alaranjado
+	vermelho-alaranjado
+	vermelho-arroxeado
+	azul-arroxeado
+	azul-esverdeado
+
+Temperatura de cores
+	frias
+		azul
+		verde
+		violeta
+	quente
+		amarelo
+		laranja
+		vermelho
+
+Cores complementares
+	opostas
+		violeta > amarelo
+		vermelho-alaranjado > verde
+		azul > laranja
+
+Cores análogas
+	cores vizinhas
+		azul- arroxeado < violeta > vermelho-arroxeado
+
+Cores análogas relacionadas
+	duas cores similares e uma com pouco mais de contraste
+		amarelo > amarelo-alaranjado > vermelho-alaranjado
+		amarelo > amarelo-alaranjado > azul-esverdeado
+
+Cores intercaladas
+	escolhe um e pula outro
+		amarelo > lanranja > vermelho
+		azul-arroxeado > verde > amarelo-esverdeado
+
+Monocromia
+	tons de uma cor, alterando a saturação e luminosidade
+		azul claro < AZUL > azul escuro
+	
+Ferramentas
+	adobe colors
+	paleton
+	coolors
+
+* Tipografia
+
+Anatomia do tipo
+
+	glifo: letras e simbolos
+	altura x: altura do x minusculo que define a altura base de todas as letras minusculas
+	altura das maiusculas
+	
+	haste: K "parede" do k, inicio
+	filete: A "traço do meio" do a
+	arco: n "torção de cima" do n
+	vertice: junção de 2 hastes, topo do A
+	espinha: curvas do S
+	barriga: b 
+	olho: area interna da letra
+
+Familias tipográficas - peso
+	light
+	normal
+	seminegrito
+	negrito
+	extranegrito
+
+Categorias de fontes
+	serifadas - com serifa
+	sans-serif - sem serifa
+	monoespaçada - tem o mesmo tamanho das letras
+	handwriting - simalar a caligrafia humana
+	display - não obedece as regras
+
+Medidas absolutas
+	cm, mm, in, px, pt, pc
+
+Medidas relativas
+	em, ex, rem, vw, vh, %
+
+ferramentas
+	extensão
+		fonts-ninja
+	sites
+		whatfontis.com
+		fontsquirrel.com
+		myfonts.com
