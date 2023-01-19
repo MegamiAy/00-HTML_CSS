@@ -35,7 +35,18 @@ quando usar cada um?
 	- id="" só pode ser utilizado uma vez/só em um elemento
 	- class="" pode ser utilizado mais de uma vez/em mais de um elemento
 
----------------------------------------------------
+--------------------------------------------------
+
+BACKGROUND 
+
+background-color: ; - colocar cor no fundo de um elemento
+background-image: url(path); - colocar uma imagem no fundo
+background-image: linear-gradient(); - colocar um fundo em degrade
+
+	propriedades:
+		
+
+--------------------------------------------------
 
 MEDIDAS
 
@@ -139,6 +150,7 @@ position: ; - usado para fazer ajustes
 
 display: ; - arrumar
 	º inline-block - alinha um ao lado do outro, na msm linha
+	º
 
 box-shadow: 0, 0, 0, 0; - define uma sombra
 	1º 0 = qt lado

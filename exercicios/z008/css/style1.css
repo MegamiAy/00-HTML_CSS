@@ -1,0 +1,39 @@
+/* IMPORT */
+
+
+/* VARIABLES */
+
+
+/* GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+
+body {
+    background-image: url(../imgs/wallpaper001.jpg);
+}
+
+.square {
+    background-color: gray;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+#sq1 {
+    background-color: aquamarine;
+}
+
+#sq2 {
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+#sq3 {
+    background-image: url('../imgs/pattern001.png');
+}
