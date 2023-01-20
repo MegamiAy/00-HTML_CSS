@@ -43,7 +43,26 @@ background-color: ; - colocar cor no fundo de um elemento
 background-image: url(path); - colocar uma imagem no fundo
 background-image: linear-gradient(); - colocar um fundo em degrade
 
-	propriedades:
+propriedades:
+
+background-repeat: ;
+	no-repeat - não repete a imagem
+	repeat-x - repete no eixo X - deitado, um do lado do outro
+	repeat-y - repete no eixo Y - em pé, um acima do outro
+
+background-position: ; - alinhamento, ponto de ancoragem
+	top - topo da imagem
+	left - lado esquerdo da imagem
+	center - meio da image
+	right - lado direito da imagem
+	bottom - parte inferior da imagem
+	+ 
+	left center - esquerda no centro
+	...
+
+
+
+
 		
 
 --------------------------------------------------
