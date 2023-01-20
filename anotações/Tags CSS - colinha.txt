@@ -60,7 +60,18 @@ background-position: ; - alinhamento, ponto de ancoragem
 	left center - esquerda no centro
 	...
 
+background-size: ;
+	auto - o navegador se vira pra coloar a imagem
+	contain - exibe a imagem 100%, sem corte
+	cover - cobrir a tela inteira, cortando a imagem se necessário
 
+backgroun-attachmant: ;
+	scroll - fundo vai rolar junto com o conteúdo, padrão
+	fixed - fundo fixo e conteúdo
+
+shorthand - background
+
+	color > image > position > repeat > [size-mlhr não usar junto] > attachment
 
 
 		
@@ -129,13 +140,6 @@ list-style-type: ; - tipo das "bolinhas"
 	ex: list-style-type: list-style-type: '\3714\00A0\00A0'; 
 list-style-position: ; - posição
 columns: ; - número de colunas
-
---------------------------------------------------
-
-BACKGROUND - FUNDO
-
-background-color: ; - cor de fundo
-background-image: linear-gradient (to 'direção', cor1, cor2...);
 
 ---------------------------------------------------
 

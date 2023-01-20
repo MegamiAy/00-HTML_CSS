@@ -1,14 +1,12 @@
-body {   
-    background-color: black;
-    background-image: url(/imgs/wallpaper002.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
+body {
+    height: 100vh;
+    background: black url(/imgs/wallpaper002.jpg) center top no-repeat fixed;
     background-size: cover;
 }
 
 main {
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 1px dashed darkred;
