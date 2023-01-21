@@ -73,9 +73,6 @@ shorthand - background
 
 	color > image > position > repeat > [size-mlhr não usar junto] > attachment
 
-
-		
-
 --------------------------------------------------
 
 MEDIDAS
@@ -174,6 +171,8 @@ position: ; - usado para fazer ajustes
 display: ; - arrumar
 	º inline-block - alinha um ao lado do outro, na msm linha
 	º
+
+
 
 box-shadow: 0, 0, 0, 0; - define uma sombra
 	1º 0 = qt lado
