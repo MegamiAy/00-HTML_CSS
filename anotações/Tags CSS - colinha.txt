@@ -142,6 +142,11 @@ columns: ; - número de colunas
 
 DIVS - COMPONENTES
 
+position: ; - posicionamento
+	relative; - altera a posição do elemento em relação ao elemento pai e em relação a si mesmo e onde normalmente estaria no fluxo de documento regular da página. Isso significa que é relativo à sua posição original dentro do elemento pai.
+	absolute; - Um elemento absolutamente posicionado é um elemento cujo valor de posição calculado é absoluto ou fixo. As propriedades top , right , bottom e left especificam deslocamentos das bordas do bloco que contém o elemento. (O bloco recipiente é o ancestral em relação ao qual o elemento está posicionado.)
+	fixed; 
+
 width: ; - mexe na largura
 height: ; - mexe no comprimento
 padding: ; - define uma a distância entre o conteúdo de um elemento e suas bordas
@@ -215,3 +220,8 @@ border: 1px solid black; - borda
 TRANSITION - TRANSIÇÃO
 
 transition-duration: ; - duração da transção
+transform: ; alteração
+	scale(); - mexe na escala
+	perspective() - mexe na perspectiva
+	rotate() - rodar
+	translate() - vai mexer na posição
