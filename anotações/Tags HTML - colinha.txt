@@ -73,3 +73,31 @@ link:favicon - favicon, colocado no head
 		image/png
 		image/jpeg
 
+TABELAS
+
+hierarquia simples
+        table
+            table row - linha
+                table header - cabeçalho
+                table data = dado
+
+tabelas grandes
+	table
+		thead
+			tr, td, th
+		tbody
+			tr, td, th
+		tfoot
+			tr, td, th
+
+<table></table> - criar a tabela
+<thead></thead> - cabeça
+<tbody></tbody> - corpo
+<tfoot></tfoot> - pé
+<tr></tr> - linha
+<th></th> - header
+<td></td> - dados - onde se aplicam as bordas
+
+
+
+
