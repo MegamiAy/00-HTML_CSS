@@ -83,6 +83,7 @@ hierarquia simples
 
 tabelas grandes
 	table
+		caption
 		thead
 			tr, td, th
 		tbody
