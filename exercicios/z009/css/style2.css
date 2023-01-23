@@ -18,6 +18,10 @@ th, td {
     padding: 15px;
 }
 
+.num {
+    text-align: right;
+}
+
 thead, tfoot {
     background-color: gray;
     color: white;
