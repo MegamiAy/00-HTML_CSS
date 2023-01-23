@@ -99,6 +99,6 @@ tabelas grandes
 <th></th> - header
 <td></td> - dados - onde se aplicam as bordas
 
-
-
-
+expansão
+	colspan="quantidade de colunas"
+	rowspan="quantidade de linhas"
