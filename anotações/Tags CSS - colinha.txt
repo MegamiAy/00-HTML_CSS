@@ -65,10 +65,10 @@ background-size: ;
 	contain - exibe a imagem 100%, sem corte
 	cover - cobrir a tela inteira, cortando a imagem se necessário
 
-backgroun-attachmant: ;
+backgroun-attachmant: ; efeito paralax
 	scroll - fundo vai rolar junto com o conteúdo, padrão
 	fixed - fundo fixo e conteúdo
-
+	
 shorthand - background
 
 	color > image > position > repeat > [size-mlhr não usar junto] > attachment
@@ -102,6 +102,9 @@ TEXT - TEXTO
 shorthand font - mãozinha
 	ordem: style, weight, size, family	
 		font: italic bolder 3em Arial, sans-serif;
+
+font-variant: ;
+	samll-caps; ? como q explica
 
 font-family: ; - fonte a ser utilizada
 font-size: ; - tamanho da fonte
