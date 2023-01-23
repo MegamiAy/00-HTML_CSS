@@ -25,7 +25,7 @@ pseudoclasse - :
 	:hover - passar o mouse em cima
 	:active - clique
 	:visited - site já aberto
-	:	
+	:nth-child(n) - tabela sebrada (2n), uma escura outra clara...
 
 pseudoelemento - ::
 	::after - depois de
