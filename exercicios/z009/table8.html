@@ -8,26 +8,115 @@
 </head>
 <style>
 
-    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        border-collapse:  collapse;
+    }
+
+    caption {
+        font-size: 1.2em;
+        font-weight: bolder;
+        padding: 20px;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgba(128, 128, 128, 0.493);
+    }
+
+    .container {
+        overflow-x: auto;
+    }
+
 </style>
 <body>
     <h1>Tabelas em tela pequena</h1>
-    <table>
-        <caption>Tabelas responsivas</caption>
-        <tr>
-            <th>Produtos</th>
-            <th>Jan</th>
-            <th>Fev</th>
-            <th>Mar</th>
-            <th>Mai</th>
-            <th>Jun</th>
-            <th>Jul</th>
-            <th>Ago</th>
-            <th>Set</th>
-            <th>Out</th>
-            <th>Nov</th>
-            <th>Dez</th>
-        </tr>
-    </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quod amet obcaecati officiis odit nihil ratione, at molestiae mollitia a perferendis inventore impedit laborum labore totam ipsa optio consectetur libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam officiis, harum asperiores similique deleniti quasi numquam rem quam blanditiis quae perferendis cum incidunt autem. Facere repellendus rem ut ratione unde.</p>
+    <div class="container">
+        <table>
+            <caption>Tabelas responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produtos</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lava Louças</td>
+                    <td>03</td>
+                    <td>24</td>
+                    <td>64</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>73</td>
+                    <td>65</td>
+                    <td>07</td>
+                    <td>06</td>
+                    <td>11</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Lava Roupas</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>87</td>
+                    <td>01</td>
+                    <td>25</td>
+                    <td>23</td>
+                    <td>05</td>
+                    <td>07</td>
+                    <td>06</td>
+                    <td>11</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Lava Louças</td>
+                    <td>03</td>
+                    <td>24</td>
+                    <td>64</td>
+                    <td>01</td>
+                    <td>05</td>
+                    <td>73</td>
+                    <td>65</td>
+                    <td>07</td>
+                    <td>06</td>
+                    <td>11</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Lava Roupas</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>87</td>
+                    <td>01</td>
+                    <td>25</td>
+                    <td>23</td>
+                    <td>05</td>
+                    <td>07</td>
+                    <td>06</td>
+                    <td>11</td>
+                    <td>23</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
