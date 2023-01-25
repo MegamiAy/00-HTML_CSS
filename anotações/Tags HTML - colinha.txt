@@ -122,8 +122,11 @@ FORMULÁRIOS
 <input>
 	type
 		text - tipo de dado, texto, varchar
+		password - para senhas
 		reset - botão de limpar
 		submit - botão de enviar
+		file - selecionar arquivos
 
 	name="nome" - útil para HTML e PHP
-	id="" - útil para label, JS
+	id="identificacao" - útil para label, JS
+	value="valor" - para colocar conteúdo em botões por exemplo
