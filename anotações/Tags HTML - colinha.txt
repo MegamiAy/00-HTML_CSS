@@ -129,12 +129,14 @@ FORMULÁRIOS
 		number - só aceita números
 		reset - botão de limpar
 		submit - botão de enviar
+		checkbox - caixa para marcar e desmarcar
 		file - selecionar arquivos
 		month - data mês/ano
 		date - data dia/mês/ano
 		time - hora
 		email - verificar se tem @
 		tel - verificar se está em formato de número de telefone - combinar com RegEx(Expressões Regulares) ex: pattern="^\(\d{2}\)\d{4,5}-\{4}$"
+
 
 	name="nome" - útil para HTML e PHP
 	id="identificacao" - útil para label, JS
