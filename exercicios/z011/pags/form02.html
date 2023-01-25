@@ -11,11 +11,11 @@
     <form action="../cadastrar.php" method="post">
         <p>
             <label for="iuser">Usuário: </label>
-            <input type="text" name="user" id="iuser">
+            <input type="text" name="user" id="iuser" required>
         </p>
         <p>
             <label for="ipass">Senha: </label>
-            <input type="password" name="pass" id="ipass">
+            <input type="password" name="pass" id="ipass" required minlength="8">
         </p>
         <input type="submit" value="Enviar"><input type="reset" value="Limpar">
     </form>
