@@ -154,7 +154,7 @@ FORMULÁRIOS
 	maxlength="comprimento maximo" - quantidade máxima de caracteres
 	min/max="" - para inputs tipo numérico
 
-<output>
+<output> - sáida
 
 <select></select> - selecionar uma opção
 	<optgroup><optgroup> - grupo de opção
