@@ -104,7 +104,22 @@ expansão
 	rowspan="quantidade de linhas"
 
 FORMULÁRIOS
+	form
+		label
+		input
+		textarea
+		
 
 <form></form>
-	action
+	action="cadastro.php" - para onde os dados vão ser enviados
+	autocomplete="on/off" - autocompletar ligado/desligado
 	
+<label></label> - etiquetas
+	name="nome" - onde se coloca o id do input, para criar uma ligação entre eles
+
+<input>
+	type
+		text
+		reset/submit - resetar/limpar e enviar
+	name="nome" - 
+	id="" -
