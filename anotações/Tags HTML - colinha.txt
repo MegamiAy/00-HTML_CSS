@@ -115,6 +115,9 @@ FORMULÁRIOS
 	method="GET/POST" - GET: buscar, aparece os dados na URL - usar quando não forem dados sensiveis
 			POST: registrar, não aparece os dados na url - usar quando os dados forem sensiveis
 	autocomplete="on/off" - autocompletar ligado/desligado
+
+<fieldset></fieldset> - agrupar
+	<legend></legend> - legenda
 	
 <label></label> - etiquetas
 	name="nome" - onde se coloca o id do input, para criar uma ligação entre eles
@@ -129,6 +132,9 @@ FORMULÁRIOS
 		file - selecionar arquivos
 		month - data mês/ano
 		date - data dia/mês/ano
+		time - hora
+		email - verificar se tem @
+		tel - verificar se está em formato de número de telefone - combinar com RegEx(Expressões Regulares) ex: pattern="^\(\d{2}\)\d{4,5}-\{4}$"
 
 	name="nome" - útil para HTML e PHP
 	id="identificacao" - útil para label, JS
