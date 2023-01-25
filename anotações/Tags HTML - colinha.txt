@@ -104,9 +104,11 @@ expansão
 	rowspan="quantidade de linhas"
 
 FORMULÁRIOS
+fieldset
+legend
 	form
 		label
-			input
+		input
 		textarea
 		
 
@@ -129,7 +131,8 @@ FORMULÁRIOS
 		number - só aceita números
 		reset - botão de limpar
 		submit - botão de enviar
-		checkbox - caixa para marcar e desmarcar
+		checkbox - caixa para marcar e desmarcar, várias de uma vez
+		radio - bolinha para marcar e desmarcar, uma de cada vez(colocando as opções com o mesmo name/nome)
 		file - selecionar arquivos
 		month - data mês/ano
 		date - data dia/mês/ano
@@ -145,4 +148,4 @@ FORMULÁRIOS
 	required="necessario" - o campo tem que ser preenchido
 	minlength="comprimento minimo" - quantidade mínima de caracteres
 	maxlength="comprimento maximo" - quantidade máxima de caracteres
-	min/max="" - para inputs tipo numerico
+	min/max="" - para inputs tipo numérico
