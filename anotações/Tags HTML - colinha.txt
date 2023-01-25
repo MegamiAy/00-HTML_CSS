@@ -104,9 +104,10 @@ expansão
 	rowspan="quantidade de linhas"
 
 FORMULÁRIOS
-fieldset
-legend
+
 	form
+	fieldset
+	legend
 		label
 		input
 		textarea
@@ -139,7 +140,8 @@ legend
 		time - hora
 		email - verificar se tem @
 		tel - verificar se está em formato de número de telefone - combinar com RegEx(Expressões Regulares) ex: pattern="^\(\d{2}\)\d{4,5}-\{4}$"
-
+		color - escolher cor, na paleta rgb
+		range - níveis
 
 	name="nome" - útil para HTML e PHP
 	id="identificacao" - útil para label, JS
@@ -149,3 +151,10 @@ legend
 	minlength="comprimento minimo" - quantidade mínima de caracteres
 	maxlength="comprimento maximo" - quantidade máxima de caracteres
 	min/max="" - para inputs tipo numérico
+
+<select></select> -
+
+<datalist></datalist> -
+
+<textarea></textarea> -
+
