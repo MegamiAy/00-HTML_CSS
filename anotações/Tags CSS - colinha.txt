@@ -178,7 +178,7 @@ position: ; - usado para fazer ajustes
 
 display: ; - arrumar
 	º inline-block - alinha um ao lado do outro, na msm linha
-	º
+	º none - não vai aparecer na tela
 
 
 
