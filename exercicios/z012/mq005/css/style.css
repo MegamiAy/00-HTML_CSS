@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: gray;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 20px;
+
+}
+
+menu {
+    display: block;
+}
+
+menu > li {
+    list-style-type: none;
+}
+
+li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(78, 77, 77);
+    text-align: center;
+    border-top: 1px solid gray;
+}
+
+li > a:hover {
+    background-color: gray;
+}
+
+main {
+    width: 90vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h1 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 18px;
+    text-indent: 20px;
+}
