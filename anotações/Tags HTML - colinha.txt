@@ -120,6 +120,8 @@ FORMULÁRIOS
 <input>
 	type
 		text
-		reset/submit - resetar/limpar e enviar
-	name="nome" - 
-	id="" -
+		reset - botão de limpar
+		submit - botão de enviar
+
+	name="nome" - útil para HTML e PHP
+	id="" - útil para label, JS
