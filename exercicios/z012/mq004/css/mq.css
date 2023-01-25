@@ -1,0 +1,69 @@
+/* Typical Device Breakpoints
+
+small screens: 600px max
+cellphone: 600px -> 768px max
+tablet: 768px -> 992px max
+desktop: 992px -> 1200px
+big screens: up 1200px
+
+*/
+
+@media print {
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: UUUUUUUUUH;
+    }
+
+    img#phone { display: none; }
+    img#print { display: block; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+    img#tablet { display: none; }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body {
+        background-image: url(../../imgs/back-tablet.jpg);
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: block; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body {
+        background-image: url(../../imgs/back-pc.jpg);
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: block; }
+    img#tv { display: none; }
+
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../../imgs/back-tv.jpg);
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }    
+    img#pc { display: none; }
+    img#tv { display: block; }
+
+}
