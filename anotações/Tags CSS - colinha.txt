@@ -218,6 +218,8 @@ border: 1px solid black; - borda
 	solid - tipo
 	black - cor
 
+box-sizing: ; - inclui o tamanho da borda no calculo 
+
 ----------------------------------------------------
 
 TRANSITION - TRANSIÇÃO
