@@ -112,6 +112,8 @@ FORMULÁRIOS
 
 <form></form>
 	action="cadastro.php" - para onde os dados vão ser enviados
+	method="GET/POST" - GET: buscar, aparece os dados na URL - usar quando não forem dados sensiveis
+			POST: registrar, não aparece os dados na url - usar quando os dados forem sensiveis
 	autocomplete="on/off" - autocompletar ligado/desligado
 	
 <label></label> - etiquetas
@@ -119,7 +121,7 @@ FORMULÁRIOS
 
 <input>
 	type
-		text
+		text - tipo de dado, texto, varchar
 		reset - botão de limpar
 		submit - botão de enviar
 
