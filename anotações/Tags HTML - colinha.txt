@@ -111,7 +111,9 @@ FORMULÁRIOS
 		label
 		input
 		textarea
-		
+		select
+			option
+		datalist		
 
 <form></form>
 	action="cadastro.php" - para onde os dados vão ser enviados
@@ -152,9 +154,15 @@ FORMULÁRIOS
 	maxlength="comprimento maximo" - quantidade máxima de caracteres
 	min/max="" - para inputs tipo numérico
 
-<select></select> -
+<output>
 
-<datalist></datalist> -
+<select></select> - selecionar uma opção
+	<optgroup><optgroup> - grupo de opção
+		label="nome" - nomear o grupo
+	
+		<option></option> - opção
 
-<textarea></textarea> -
+<datalist></datalist> - lista
+
+<textarea></textarea> - área de texto
 
