@@ -7,19 +7,30 @@
     <link rel="stylesheet" href="/mq006/css/style.css">
     <link rel="stylesheet" href="/mq006/css/media.css">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
     <main>
         <section id="log">
             <div id="imgd">
-                
+
             </div>
             <div id="formu">
                 <h1>Login</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores consequatur rerum optio.</p>
                 <form action="log.php" method="post">
-                    <label for="iuser">Nome de Usuário: </label>
-                    <input type="text" name="user" id="iuser" required>
+                    <div class="camp">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="user" id="iuser" required placeholder="seu email..." maxlength="255">
+                        <label for="iuser">Login: </label>
+                    </div>
+                    <div class="camp">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="pass" id="ipass" required placeholder="sua senha..." minlength="10">
+                        <label for="ipass">Senha: </label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html">esqueci a senha <span class="material-symbols-outlined">mail</span></a>
                 </form>
             </div>
         </section>

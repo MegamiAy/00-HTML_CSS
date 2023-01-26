@@ -25,6 +25,10 @@ main {
     width: 100vw;
 }
 
+h1 {
+    text-align: center;
+}
+
 #log {
     position: absolute;
     left: 50%;
