@@ -59,7 +59,18 @@ h1 {
     padding: 17px;
 }
 
-.camp 
+.camp > label {
+    display: none;
+}
+
+.camp {
+    background-color: var(--cor02);
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
 
 input[type=submit] {
     display: block;
