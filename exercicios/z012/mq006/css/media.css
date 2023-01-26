@@ -11,11 +11,12 @@ big screens: up 1200px
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
-        background-image: linear-gradient(to top, #49a09d, #441c1c);
+        background-image: linear-gradient(to top, #441c1c,  #a06449);
     }
 
     #log {
         width: 70vw;
+        height: 270px;
     }
 
     #imgd {
@@ -39,6 +40,7 @@ big screens: up 1200px
 
     #log {
         width: 700px;
+        height: 280px;
     }
 
     #imgd {

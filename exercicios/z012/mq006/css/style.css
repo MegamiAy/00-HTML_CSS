@@ -63,6 +63,13 @@ h1 {
     display: none;
 }
 
+.camp > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
 .camp {
     background-color: var(--cor02);
     width: 100%;
@@ -70,6 +77,23 @@ h1 {
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
+
+}
+
+.camp > input {
+    background-color: #a06449;
+    font-size: 1em;
+    transform: translateY(-12px);
+    width: calc(100% - 48px);
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 4px;
+    
+}
+
+.camp > input:focus-within{
+    background-color: white;
 }
 
 input[type=submit] {
