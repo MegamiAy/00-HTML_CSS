@@ -1,0 +1,13 @@
+/* VARIABLES */
+
+:root {
+    --cor01: #49a09d;
+    --cor02: #5f2c82;
+}
+
+/* GLOBALS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
