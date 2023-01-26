@@ -2,7 +2,7 @@
 
 :root {
     --cor01: #49a09d;
-    --cor02: #5f2c82;
+    --cor02: #441c1c;
 }
 
 /* GLOBALS */
@@ -34,4 +34,19 @@ main {
     width: 250px;
     height: 500px;
     border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.527);
+}
+
+#imgd {
+    display: block;
+    background: var(--cor02) url(../../mq006/imgs/revy.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+}
+
+#formu {
+    display: block;
+    padding: 10px;
 }
